@@ -8,7 +8,8 @@ This plugin uses the native Column Group setup for Interactive Report.
 2. Configure the interactive report column groups on Page Design and asign columns to those groups.
 3. Create an After Refresh Dynamic Action and set as True Action `IR Column Groups [Plug-In]`.
 4. Set up the Static ID for the report, and put this ID on the plugin configuration field `Report Static ID`.
-5. Run the page and check it out.
+5. Set True for `Fire on Initialization`.
+6. Run the page and check it out.
 
 ## Pre-requesit
 * The grouped columns should be ordered together
