@@ -3,6 +3,9 @@ Oracle Apex plugin to show Column Groups over an Interactive Report like they sh
 This plugin uses the native Column Group setup for Interactive Report.
 
 
+## Supported Version
+* Only supports Oracle Apex 21.1. Working on older versions.
+
 ## Instalation
 1. Import the file `dynamic_action_plugin_mvx_ir_coluns_group.sql` on your application.
 2. Configure the interactive report column groups on Page Design and asign columns to those groups.
@@ -15,5 +18,6 @@ This plugin uses the native Column Group setup for Interactive Report.
 * The grouped columns should be ordered together
 
 ## To-do
+* Add suport starting with 18.1
 * Use the saved report columns order, insted the page design columns order.
 * Add suport to custom CSS and click events for the groups.
